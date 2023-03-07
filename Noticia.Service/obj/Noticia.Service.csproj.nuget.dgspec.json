@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Service\\Noticia.Service.csproj": {}
+    "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Service\\Noticia.Service.csproj": {}
   },
   "projects": {
-    "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Application\\Noticia.Application.csproj": {
+    "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Application\\Noticia.Application.csproj",
+        "projectUniqueName": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj",
         "projectName": "Noticia.Application",
-        "projectPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Application\\Noticia.Application.csproj",
-        "packagesPath": "C:\\Users\\alex_dasilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Application\\obj\\",
+        "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj",
+        "packagesPath": "C:\\Users\\alexu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alex_dasilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj": {
-                "projectPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj"
+              "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj": {
+                "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj"
               }
             }
           }
@@ -48,6 +48,12 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -55,6 +61,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -72,21 +82,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj": {
+    "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj",
         "projectName": "Noticia.Core",
-        "projectPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj",
-        "packagesPath": "C:\\Users\\alex_dasilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\obj\\",
+        "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj",
+        "packagesPath": "C:\\Users\\alexu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alex_dasilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,6 +125,20 @@
             "LTest.Http": {
               "target": "Package",
               "version": "[1.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -132,21 +156,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Infra\\Noticia.Infra.csproj": {
+    "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Infra\\Noticia.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj",
         "projectName": "Noticia.Infra",
-        "projectPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Infra\\Noticia.Infra.csproj",
-        "packagesPath": "C:\\Users\\alex_dasilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Infra\\obj\\",
+        "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj",
+        "packagesPath": "C:\\Users\\alexu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alex_dasilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,8 +184,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj": {
-                "projectPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj"
+              "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj": {
+                "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj"
+              },
+              "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj": {
+                "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj"
               }
             }
           }
@@ -175,6 +202,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -190,21 +229,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Service\\Noticia.Service.csproj": {
+    "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Service\\Noticia.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Service\\Noticia.Service.csproj",
+        "projectUniqueName": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Service\\Noticia.Service.csproj",
         "projectName": "Noticia.Service",
-        "projectPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Service\\Noticia.Service.csproj",
-        "packagesPath": "C:\\Users\\alex_dasilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Service\\obj\\",
+        "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Service\\Noticia.Service.csproj",
+        "packagesPath": "C:\\Users\\alexu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alex_dasilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -218,14 +257,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Application\\Noticia.Application.csproj": {
-                "projectPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Application\\Noticia.Application.csproj"
+              "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj": {
+                "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj"
               },
-              "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj": {
-                "projectPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj"
+              "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj": {
+                "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj"
               },
-              "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Infra\\Noticia.Infra.csproj": {
-                "projectPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Infra\\Noticia.Infra.csproj"
+              "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj": {
+                "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj"
               }
             }
           }
@@ -247,6 +286,16 @@
             "Grpc.Core": {
               "target": "Package",
               "version": "[2.46.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -271,7 +320,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

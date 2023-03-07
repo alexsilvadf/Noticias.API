@@ -10,6 +10,6 @@ namespace Noticia.Core.Interface
 {
     public interface INoticiarioRepository
     {
-        Task<bool> IncluirNoticiaAsync(Noticiario input);
+        Task<List<Noticiario>> BuscarNoticiasAsync();
     }
 }

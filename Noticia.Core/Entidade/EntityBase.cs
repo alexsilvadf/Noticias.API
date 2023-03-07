@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Noticia.Core.Entidade
 {
-    public class teste
+    public abstract class EntityBase
     {
     }
 }

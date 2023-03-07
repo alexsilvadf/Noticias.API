@@ -22,9 +22,11 @@ namespace Noticia.Application
             _noticiarioRepository = noticiarioRepository;
         }
 
-        public List<Noticiario> BuscarNoticias()
+        public async Task<List<Noticiario>> BuscarNoticias()
         {
-            throw new NotImplementedException();
+            var listaNoticias = await _noticiarioRepository.BuscarNoticiasAsync();
+
+            return listaNoticias;
         }
 
         public async Task<Noticiario> IncluirNoticiaAsync(NoticiaInput input)
@@ -32,7 +34,7 @@ namespace Noticia.Application
             var noticiario = new Noticiario();
             _mapper.Map<NoticiaInput, Noticiario>(input, noticiario);
 
-            await _noticiarioRepository.IncluirNoticiaAsync(noticiario);
+            //await _noticiarioRepository.IncluirNoticiaAsync(noticiario);
 
             return null;
         }

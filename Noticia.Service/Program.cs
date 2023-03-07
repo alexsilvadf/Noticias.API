@@ -1,8 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Noticia.Application;
 using Noticia.Application.Interface;
+using Noticia.Infra;
 using Noticia.Service.Extensao;
 
 var builder = WebApplication.CreateBuilder(args);
+string mySqlConnection = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
@@ -13,6 +17,9 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 builder.Services.RegistrarServicos();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContextPool<NoticiaContext>(x => x.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection)));
+
 
 builder.Services.AddCors(options =>
 {
@@ -31,6 +38,8 @@ builder.Services.AddCors(options =>
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+
 
 
 

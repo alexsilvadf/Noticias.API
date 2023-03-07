@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj": {}
+    "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj": {}
   },
   "projects": {
-    "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj": {
+    "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj",
         "projectName": "Noticia.Core",
-        "projectPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\Noticia.Core.csproj",
-        "packagesPath": "C:\\Users\\alex_dasilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Cursos\\Angular\\AppNoticias\\Noticias\\Noticia.Core\\obj\\",
+        "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj",
+        "packagesPath": "C:\\Users\\alexu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alex_dasilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,20 @@
             "LTest.Http": {
               "target": "Package",
               "version": "[1.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -60,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

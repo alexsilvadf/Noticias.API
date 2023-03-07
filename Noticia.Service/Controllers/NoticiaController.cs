@@ -36,53 +36,57 @@ namespace Noticia.Service.Controllers
         }
 
         [HttpGet("Buscar")]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
 
-            //var noticias = _noticiaService.BuscarNoticias();
+            var noticias = await _noticiaService.BuscarNoticias();
+
+            return new JsonResult(noticias);
 
             //var dataBytes = System.IO.File.ReadAllBytes(noticias.ToString());
 
-            var dataBytes = System.IO.File.ReadAllBytes(Path.Combine("Storage", "IMG_20230103_090026.jpg"));
-
-            var dataBytes2 = System.IO.File.ReadAllBytes(Path.Combine("Storage", "IMG-20230109-WA0038.jpeg"));
-
-            var dataBytes3 = System.IO.File.ReadAllBytes(Path.Combine("Storage", "IMG_20230106_102104.jpg"));
 
 
-            var retorno = new List<NoticiaOutput>()
-            {
-              new NoticiaOutput()
-              {
-                  Id = 1,
-                  Titulo = "Primeiro Dia",
-                  Descricao =   "Chegada do Material para inicio das obras",
-                  Imagem = dataBytes,
-                  DataCriacao = DateTime.Now.ToShortDateString(),
+            //var dataBytes = System.IO.File.ReadAllBytes(Path.Combine("Storage", "IMG_20230103_090026.jpg"));
 
-              },
-               new NoticiaOutput()
-              {
-                  Id = 2,
-                  Titulo = "Segundo Dia",
-                  Descricao =   "Continuando a obra",
-                  Imagem = dataBytes2,
-                  DataCriacao = DateTime.Now.ToShortDateString(),
+            //var dataBytes2 = System.IO.File.ReadAllBytes(Path.Combine("Storage", "IMG-20230109-WA0038.jpeg"));
 
-              },
-                new NoticiaOutput()
-              {
-                  Id = 3,
-                  Titulo = "Terceiro Dia",
-                  Descricao =   "Finalizando o Alicerce",
-                  Imagem = dataBytes3,
-                  DataCriacao = DateTime.Now.ToShortDateString(),
+            //var dataBytes3 = System.IO.File.ReadAllBytes(Path.Combine("Storage", "IMG_20230106_102104.jpg"));
 
-              }
 
-            };
+            //var retorno = new List<NoticiaOutput>()
+            //{
+            //  new NoticiaOutput()
+            //  {
+            //      Id = 1,
+            //      Titulo = "Primeiro Dia",
+            //      Descricao =   "Chegada do Material para inicio das obras",
+            //      Imagem = dataBytes,
+            //      DataCriacao = DateTime.Now.ToShortDateString(),
 
-            return new JsonResult(retorno);
+            //  },
+            //   new NoticiaOutput()
+            //  {
+            //      Id = 2,
+            //      Titulo = "Segundo Dia",
+            //      Descricao =   "Continuando a obra",
+            //      Imagem = dataBytes2,
+            //      DataCriacao = DateTime.Now.ToShortDateString(),
+
+            //  },
+            //    new NoticiaOutput()
+            //  {
+            //      Id = 3,
+            //      Titulo = "Terceiro Dia",
+            //      Descricao =   "Finalizando o Alicerce",
+            //      Imagem = dataBytes3,
+            //      DataCriacao = DateTime.Now.ToShortDateString(),
+
+            //  }
+
+            //};
+
+
 
         }
 

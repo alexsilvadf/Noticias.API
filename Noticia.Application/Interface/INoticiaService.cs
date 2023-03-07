@@ -11,7 +11,7 @@ namespace Noticia.Application.Interface
     public interface INoticiaService
     {
         Task<Noticiario> IncluirNoticiaAsync(NoticiaInput input);
-        List<Noticiario> BuscarNoticias();
+        Task<List<Noticiario>> BuscarNoticias();
 
     }
 }
