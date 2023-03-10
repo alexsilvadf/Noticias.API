@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xEfoXJg9DuuqRoVsLyjFFC3Vk/gfmRKExCRpg/fJYqw9XBTgS9rRf9+q7DPeY+4sesIOCpQcnGIwqLr9Lclz4g==",
+  "dgSpecHash": "lDiVx3dO5OvBdLL6g/tmYBJNfD69jP2xh1IHBu/FhXiu8wIem6+9xpL8LtUIv7fISH+O78QAU7bDztIuTDXD/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj",
+  "projectFilePath": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexu\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",
     "C:\\Users\\alexu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

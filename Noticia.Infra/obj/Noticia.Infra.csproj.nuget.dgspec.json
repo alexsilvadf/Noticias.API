@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj": {}
+    "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj": {
+    "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj",
+        "projectUniqueName": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj",
         "projectName": "Noticia.Application",
-        "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj",
+        "projectPath": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj",
         "packagesPath": "C:\\Users\\alexu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\obj\\",
+        "outputPath": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj": {
-                "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj"
+              "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj": {
+                "projectPath": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj": {
+    "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj",
+        "projectUniqueName": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj",
         "projectName": "Noticia.Core",
-        "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj",
+        "projectPath": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj",
         "packagesPath": "C:\\Users\\alexu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\obj\\",
+        "outputPath": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -160,14 +160,14 @@
         }
       }
     },
-    "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj": {
+    "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj",
+        "projectUniqueName": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj",
         "projectName": "Noticia.Infra",
-        "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj",
+        "projectPath": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Infra\\Noticia.Infra.csproj",
         "packagesPath": "C:\\Users\\alexu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Infra\\obj\\",
+        "outputPath": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -184,11 +184,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj": {
-                "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj"
+              "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj": {
+                "projectPath": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj"
               },
-              "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj": {
-                "projectPath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj"
+              "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj": {
+                "projectPath": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Core\\Noticia.Core.csproj"
               }
             }
           }

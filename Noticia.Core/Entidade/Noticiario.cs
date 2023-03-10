@@ -11,9 +11,9 @@ namespace Noticia.Core.Entidade
         public int Id { get; set; }
         public string Titulo { get; set; }
         public string Descricao { get; set; }
-        public string? Imagem { get; set; }
+        public string? CaminhoImagem { get; set; }
         public DateTime? DataHoraInclusao { get; set; }
         public DateTime? DataHoraAlteracao { get; set; }
-      
+
     }
 }

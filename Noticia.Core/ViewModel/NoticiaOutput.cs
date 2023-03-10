@@ -13,7 +13,7 @@ namespace Noticia.Core.ViewModel
         public string Titulo { get; set; }
         public string Descricao { get; set; }
         public byte[]? Imagem { get; set; }
-        public string? DataCriacao { get; set; }
+        public DateTime? DataHoraInclusao { get; set; }
       
     }
 }

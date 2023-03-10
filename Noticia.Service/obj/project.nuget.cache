@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8inNxZaL25QJdtJkD5rdcbfAUpOQq2lIEmJW/bIdrlYZOgP5Fonc5nkBrBnBE1YvKxEZIwmspMdfcEk+uBhlfA==",
+  "dgSpecHash": "0goHax6zkFkVDFrq0qASZ3VUOlEdh4c/ktrDf9V1mFFiyiO8hOCGWLmPGDTREkFjXYDz1jsolq9kHkGA1p/kHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Service\\Noticia.Service.csproj",
+  "projectFilePath": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Service\\Noticia.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexu\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\alexu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

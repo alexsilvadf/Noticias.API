@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DLdUeMYmzFHFkG5cxAlR66CWKT7Yw4hGYKPdYoGr61Ystnov8T7MgLSnYwCeLogrqVhDHzEj99vmy89FLUrk1w==",
+  "dgSpecHash": "6EySL/9RXX1oSWC0/0iBxdQDjjbIbh8omjaozgdho+kRIMV2b3AcqTaStUUd7kwIXvF6+YsHK6uQDRzb1f3Y1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexu\\OneDrive\\Desktop\\lixo\\Nova pasta\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj",
+  "projectFilePath": "D:\\Projetos\\Sistemas\\Noticias\\Noticias.API\\Noticia.Application\\Noticia.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexu\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\alexu\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",

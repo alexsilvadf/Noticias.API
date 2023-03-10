@@ -1,4 +1,5 @@
-﻿using Grpc.Core;
+﻿using AutoMapper;
+using Grpc.Core;
 using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,10 +14,12 @@ namespace Noticia.Service.Controllers
     public class NoticiaController : ControllerBase
     {
         private readonly INoticiaService _noticiaService;
+        private readonly IMapper _mapper;
 
-        public NoticiaController(INoticiaService noticiaService)
+        public NoticiaController(INoticiaService noticiaService, IMapper mapper)
         {
             _noticiaService = noticiaService;
+            _mapper = mapper;
         }
 
         [HttpPost("Incluir")]
@@ -41,50 +44,43 @@ namespace Noticia.Service.Controllers
 
             var noticias = await _noticiaService.BuscarNoticias();
 
-            return new JsonResult(noticias);
-
-            //var dataBytes = System.IO.File.ReadAllBytes(noticias.ToString());
-
-
-
             //var dataBytes = System.IO.File.ReadAllBytes(Path.Combine("Storage", "IMG_20230103_090026.jpg"));
 
-            //var dataBytes2 = System.IO.File.ReadAllBytes(Path.Combine("Storage", "IMG-20230109-WA0038.jpeg"));
+            
 
-            //var dataBytes3 = System.IO.File.ReadAllBytes(Path.Combine("Storage", "IMG_20230106_102104.jpg"));
+
+            var resultado = _mapper.Map<List<NoticiaOutput>>(noticias);
+
+            for (int i = 0; i < noticias.Count; i++)
+            {
+                resultado[i].Titulo = noticias[i].Titulo;
+                resultado[i].Descricao = noticias[i].Descricao;
+                resultado[i].DataHoraInclusao = noticias[i].DataHoraInclusao;
+                resultado[i].Imagem = System.IO.File.ReadAllBytes(Path.Combine(noticias[i].CaminhoImagem)); ;
+            }
+
+            return new JsonResult(resultado);       
+
+
+
+
 
 
             //var retorno = new List<NoticiaOutput>()
             //{
             //  new NoticiaOutput()
             //  {
-            //      Id = 1,
+            //      Id = 
             //      Titulo = "Primeiro Dia",
             //      Descricao =   "Chegada do Material para inicio das obras",
             //      Imagem = dataBytes,
             //      DataCriacao = DateTime.Now.ToShortDateString(),
 
-            //  },
-            //   new NoticiaOutput()
-            //  {
-            //      Id = 2,
-            //      Titulo = "Segundo Dia",
-            //      Descricao =   "Continuando a obra",
-            //      Imagem = dataBytes2,
-            //      DataCriacao = DateTime.Now.ToShortDateString(),
-
-            //  },
-            //    new NoticiaOutput()
-            //  {
-            //      Id = 3,
-            //      Titulo = "Terceiro Dia",
-            //      Descricao =   "Finalizando o Alicerce",
-            //      Imagem = dataBytes3,
-            //      DataCriacao = DateTime.Now.ToShortDateString(),
-
-            //  }
+            // }
 
             //};
+
+            //return new JsonResult(retorno);
 
 
 
@@ -108,7 +104,7 @@ namespace Noticia.Service.Controllers
                   Titulo = "Primeiro Dia",
                   Descricao =   "Chegada do Material para inicio das obras",
                   Imagem = dataBytes,
-                  DataCriacao = DateTime.Now.ToShortDateString(),
+                  DataHoraInclusao = DateTime.Now,
 
               }
             };

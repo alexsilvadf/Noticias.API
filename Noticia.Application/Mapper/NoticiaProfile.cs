@@ -13,9 +13,12 @@ namespace Noticia.Application.Mapper
     {
         public NoticiaProfile()
         {
-            CreateMap<NoticiaInput, Noticiario>(MemberList.None)
-                .ForMember(s => s.Imagem, opt => opt.MapFrom(src => src.CaminhoImagem));
-                
+            //CreateMap<Noticiario, NoticiaOutput>(MemberList.None)
+            //    .ForMember(s => s.Imagem, opt => opt.MapFrom(src => src.Imagem));
+
+            CreateMap<Noticiario, NoticiaOutput>(MemberList.None);
+               
+
         }
     }
 }
